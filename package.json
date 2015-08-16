@@ -1,0 +1,27 @@
+{
+  "name": "tictactoe",
+  "version": "0.1.0",
+  "description": "tic tac toe, massively multiplayer",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vicksonzero/tictactoe.git"
+  },
+  "keywords": [
+    "tic",
+    "tac",
+    "toe",
+    "mmo"
+  ],
+  "author": "Dickson Chui (vicksonzero)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.6",
+    "util": "^0.10.3"
+  }
+}
